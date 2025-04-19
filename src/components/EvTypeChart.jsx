@@ -69,7 +69,7 @@ export const EvTypeChart = () => {
               ...options.plugins.legend,
               labels: {
                 font: {
-                  size: 14,
+                  
                   size: window.innerWidth < 640 ? 14 : 18,
                 },
               },

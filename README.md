@@ -6,9 +6,7 @@ This project is submitted as part of the **Summer Internship Assessment** under 
 
 ## 🔗 Live Dashboard
 
-**Live Site:** [Click here to view the dashboard](https://your-live-dashboard-url.com)
-
-> _(Replace the above link with your actual deployment URL)_
+**Live Site:** [Click here to view the dashboard](https://analytics-dashboard-assessment-wheat-six.vercel.app/)
 
 ---
 
@@ -39,8 +37,11 @@ The dashboard includes the following visualizations and features:
 
 This dashboard is deployed on:
 
-> **Hosting Platform:** Vercel / Netlify / GitHub Pages  
-> _(Update based on where you deploy it)_
+> **Hosting Platform:** Vercel
+
+<div align="center">
+  <img src="https://analytics-dashboard-assessment-wheat-six.vercel.app/" alt="dashboard" />
+</div>
 
 ---
 
