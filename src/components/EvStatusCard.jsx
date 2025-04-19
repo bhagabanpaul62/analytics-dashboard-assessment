@@ -40,7 +40,7 @@ const oneYear = topYear[0][0];
 
 export const EvStatusCard = () => {
   return (
-    <div className="w-full flex justify-center items-center flex-wrap mt-4 sm:mt-15 px-2 sm:px-0">
+    <div className="w-full flex justify-center items-center flex-wrap  sm:mt-0 px-2 sm:pt-10">
       <div className="p-2 sm:p-10">
         <div className="bg-white w-full sm:w-90 h-auto sm:h-35 rounded-lg shadow-md p-4 sm:p-5">
           <div className="flex justify-between">

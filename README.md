@@ -29,9 +29,9 @@ The dashboard includes the following visualizations and features:
 ## 🛠️ Tech Stack
 
 - **React.js** – Frontend framework
-- **Chart.js / Recharts** – Data visualizations
-- **TailwindCSS / Bootstrap** – Styling and layout
-- **CSV Parser (e.g., PapaParse)** – To load CSV data
+- **Recharts / Chart.js** – Data visualizations
+- **TailwindCSS** – Styling and responsive layout
+- **Custom JSON Loader** – Converted CSV to JSON for easier data handling
 
 ---
 

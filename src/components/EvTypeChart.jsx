@@ -57,11 +57,25 @@ const options = {
 export const EvTypeChart = () => {
   return (
     <>
-      <div className="w-ful mb-20 flex justify-start items-start">
-        <h1 className="text-3xl font-semibold">EV Distribution</h1>
+      <div className="w-full mb-6 sm:mb-8 flex justify-start items-start">
+        <h1 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold px-5">EV Distribution</h1>
       </div>
-      <div className="w-64 h-64 mb-20">
-        <Pie data={data} options={options} />
+      <div className="w-48 h-48 sm:w-64 sm:h-64 mb-8 sm:mb-20">
+        <Pie data={data} options={{
+          ...options,
+          plugins: {
+            ...options.plugins,
+            legend: {
+              ...options.plugins.legend,
+              labels: {
+                font: {
+                  size: 14,
+                  size: window.innerWidth < 640 ? 14 : 18,
+                },
+              },
+            },
+          },
+        }} />
       </div>
     </>
   );

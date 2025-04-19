@@ -56,7 +56,7 @@ const data = {
 
 const options = {
   responsive: true,
-  maintainAspectRatio: true,
+  maintainAspectRatio: false,
   plugins: {
     legend: {
       position: "top",
@@ -115,9 +115,15 @@ const options_c = {
 export const EvRegistration = () => {
   return (
     <div className="w-full h-auto sm:h-110 flex flex-col sm:flex-row justify-center items-center gap-4 sm:gap-10 mt-6 sm:mt-12 p-2 sm:p-0">
-      <div className="bg-white w-full sm:w-[50vw] h-[400px] sm:h-full rounded-lg shadow-md !p-5 sm:p-5 flex justify-center flex-col mb-4 sm:mb-0">
-        <h1 className="text-xl md:text-2xl lg:text-3xl font-semibold mb-2 sm:mb-4">EV Registration Trends</h1>
-        <Line options={options} data={data} />
+      <div className="bg-white w-full sm:w-[50vw] h-[450px] sm:h-full rounded-lg shadow-md p-4 sm:p-5 flex flex-col">
+        <h1 className="text-xl md:text-2xl lg:text-3xl font-semibold mb-6 sm:mb-8 px-2">EV Registration Trends</h1>
+        <div className="flex-1 w-full min-h-0">
+          <Line options={{
+            ...options,
+            maintainAspectRatio: false,
+            responsive: true,
+          }} data={data} />
+        </div>
       </div>
       <div className="bg-white w-full sm:w-1/3 h-[450px] sm:h-full rounded-lg shadow-md flex flex-col p-4 sm:p-5">
         <h1 className="text-xl md:text-2xl lg:text-3xl font-semibold mb-6 sm:mb-8 px-2">Top 5 Counties by EV Counts</h1>
