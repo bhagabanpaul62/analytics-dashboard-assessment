@@ -38,11 +38,15 @@ The dashboard includes the following visualizations and features:
 This dashboard is deployed on:
 
 > **Hosting Platform:** Vercel
-
 <div align="center">
-  <img src="https://analytics-dashboard-assessment-wheat-six.vercel.app/" alt="dashboard" />
+  <iframe 
+    src="https://analytics-dashboard-assessment-wheat-six.vercel.app/" 
+    width="100%" 
+    height="600" 
+    style="border: 1px solid #ccc; border-radius: 8px;"
+  >
+  </iframe>
 </div>
-
 ---
 
 ## 📝 Submission Info
