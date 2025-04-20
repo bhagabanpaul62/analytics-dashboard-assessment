@@ -10,6 +10,15 @@ This project is submitted as part of the **Summer Internship Assessment** under 
 
 ---
 
+## 🎥 Dashboard Walkthrough Video
+
+Check out a quick walkthrough of the Electric Vehicle Dashboard below:
+
+
+[![Watch the video](https://img.youtube.com/vi/k0xuSbk7n-g/hqdefault.jpg)](https://youtu.be/k0xuSbk7n-g)
+
+🔗 **Watch on YouTube**: [https://youtu.be/k0xuSbk7n-g](https://youtu.be/k0xuSbk7n-g)
+
 ## 📊 Features & Insights
 
 The dashboard includes the following visualizations and features:
