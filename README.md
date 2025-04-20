@@ -64,8 +64,8 @@ It includes attributes like:
 
 ## 👨‍💻 Author
 
-**Name:** [Your Full Name]  
-**GitHub:** [@your-github](https://github.com/your-github)
+**Name:** Bhagaban Paul  
+**GitHub:** [@bhagabanpaul62](https://github.com/bhagabanpaul62)
 
 ---
 
